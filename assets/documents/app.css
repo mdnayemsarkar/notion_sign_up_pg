@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+ 
+}
+
+form {
+  width: 300px;
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    padding-left: 20px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+input[type="email"]
+ {
+  display: block;
+  margin-top: 10px;
+  height: 35px;
+  background: #F7F7F4;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 14px;
+  color: gray;
+  display: block;
+  margin-bottom: 5px;
+}
+p{
+    color: rgb(187, 175, 175);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+/* font-family: 'Merriweather', serif; */
+}
+p >a{
+    color: gray;
+}
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.email{
+  width: 100%;
+  height: 35px;
+  background-color: #fdf5f2;
+  color: rgb(238, 70, 70);
+  font-family: 'Kanit', sans-serif;
+  border: 1px solid rgb(238, 159, 159);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+hr{
+    margin-bottom: 20px;
+}
+button{
+    width: 100%;
+    height: 35px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    color: rgb(20, 20, 20);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    font-family: 'Kanit', sans-serif;
+}
+/* bottom part  starts here  */
+.bottom_text{
+    margin-top: 60px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+button i{
+    padding-right: 10px;
+}
+/* bottom part  ends here  */
+.bottom_text a span{
+    padding-left: 50%;
+}
